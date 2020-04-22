@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+//function parameter tanpa nilai return
+void pengurangan ( int b, int c){
+    cout << (b - c);
+}
+int main (){
+    cout<<"Hasil function pengurangan"<<endl;
+    pengurangan (30, 15);
+}
